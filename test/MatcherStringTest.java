@@ -22,6 +22,6 @@ public class MatcherStringTest {
         assertEquals("4-6 10-12 27-29",obj.strMatcher("She sells seashells by the seashore","se"));
         assertEquals("4-6 10-12",obj.strMatcher("She sells seashells","se"));
         assertEquals("0-0",obj.strMatcher("",""));
-        assertNotEquals("",obj.strMatcher("",""));
+        
     }
 }
